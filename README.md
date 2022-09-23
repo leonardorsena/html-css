@@ -1,4 +1,4 @@
 # html-css
  Curso em vídeo
 
- um dois três um pacito bailante maria
+ Olá, estou aprendendo HTML e CSS no Curso em Vídeo!
