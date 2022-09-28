@@ -1,0 +1,70 @@
+@charset "UFT-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor01: #000;
+    --cor02: #ffff;
+    --cor03: rgba(0, 0, 0, 0.267);
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor02);
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    text-align: center;    
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+body {
+    min-width: 100vh;
+    background-color:var(--cor02);
+}
+p {
+    font-size: 24px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal {
+    background-color: var(--cor02);
+    color: var(--cor01);
+}
+section.imagem {
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    color: var(--cor02);
+    text-shadow:rgba(0, 0, 0, 0.534) 1px 1px 2px;
+    height: 200px;
+}
+section.imagem > p {
+    background-color: var(--cor03);
+    width: 400px;
+}
+section.img02 {
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+    color: var(--cor02);
+    text-shadow:rgba(0, 0, 0, 0.534) 1px 1px 2px;
+    height: 200px;
+}
+footer {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+}
